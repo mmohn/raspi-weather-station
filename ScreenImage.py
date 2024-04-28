@@ -8,12 +8,12 @@ class ScreenImage:
         self.width = width;
         self.height = height;
         
-        self.font_huge = ImageFont.truetype("./resources/fonts/UniversLTPro-65Bold.otf", 24);
-        self.font_tall = ImageFont.truetype("./resources/fonts/UniversLTPro-45Light.otf", 24);
-        self.font_medium = ImageFont.truetype("./resources/fonts/UniversLTPro-55Roman.otf", 16);
-        self.font_thin = ImageFont.truetype("./resources/fonts/UniversLTPro-45Light.otf", 16);
-        self.font_small = ImageFont.truetype("./resources/fonts/UniversLTPro-55Roman.otf", 12);
-        self.font_tiny = ImageFont.truetype("./resources/fonts/UniversLTPro-55Roman.otf", 8);
+        self.font_huge = ImageFont.truetype("LiberationSans-Bold.ttf", 24);
+        self.font_tall = ImageFont.truetype("LiberationSansNarrow-Regular.ttf", 24);
+        self.font_medium = ImageFont.truetype("LiberationSans-Regular.ttf", 16);
+        self.font_thin = ImageFont.truetype("LiberationSansNarrow-Regular.ttf", 16);
+        self.font_small = ImageFont.truetype("LiberationSans-Regular.ttf", 12);
+        self.font_tiny = ImageFont.truetype("LiberationSans-Regular.ttf", 8);
 
         image = Image.open("./resources/bitmaps/temperature.png");
         self.bg_temperature = image.convert("1");
